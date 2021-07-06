@@ -1,0 +1,9 @@
+.upperH1 {
+    color: seagreen;
+    text-transform: uppercase;
+}
+
+.upperH2 {
+    color: fuchsia;
+    text-transform: uppercase;
+}
