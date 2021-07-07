@@ -101,3 +101,25 @@ var text = svg2.selectAll('text')
     .attr('x', function (el, i) {
         return barWidth * i;
     })
+
+var svg3 = d3.select('.svg3')
+    .attr('width', svgWidth)
+    .attr('height', svgHeight);
+
+    svg3.append("circle") 
+        .attr("cx", 100)
+        .attr("cy", 100)
+        .attr("r", 50)
+        .style('fill', 'yellow')
+        .style("stroke", "blue")
+        .style("stroke-width", "4");
+    
+    svg3.append("rect")
+        .style("fill", "none")
+        .style("stroke", "red")
+        .style("stroke-width", "2")
+        .attr("x", 45)
+        .attr("y", 45)
+        .attr("width", 110) 
+        .attr("height", 110)
+        .attr("rx", 5);
